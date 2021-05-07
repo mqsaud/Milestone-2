@@ -13,7 +13,7 @@ nav .navbar-toggler-icon {
 }
 nav ul a{
     font-weight: 700;
-    font-size: x-large;
+    font-size: large;
 }
 .capital{
     text-transform: uppercase;
@@ -31,10 +31,7 @@ nav ul a{
       margin:20px auto;
   }
 
-  .hero{
-      width: 100%;
-      height: 50vh;
-  }
+  
   .contact-send{
       margin-top: 20px;
   }
@@ -42,19 +39,22 @@ nav ul a{
 /* --HEADER--END------------------------------------------------------------- */
 
 /* =Hero Imagr= */
-
+.hero{
+      width: 100%;
+      height: 50vh;
+  }
 
 /* ====Footer==== */
 footer{
     margin: 0;
-    font-family:cairo , sans-serif ;
+   
 }
 .foot-wrapper{
     padding: 8px;
-    background-color: #9f9f9f;
+    background-color: #5587c4;
 }
 .ft-color{
-    background-color: #555555;
+    background-color: #6796c2;
     color: whitesmoke;
     padding-top:10px;
     border: 1px solid whitesmoke;
@@ -70,14 +70,14 @@ li a .fab{
     letter-spacing: 20px;
 }
 
-.fab:hover{
-    color:tomato;
-    font-size: 26px;
+footer .fab:hover{
+    color:red;
+    font-size: 27px;
 }
 .foot-wrapper h5{
       color: whitesmoke;
 }
 .foot-wrapper h5:hover,
 .foot-wrapper a{
-    color:tomato;
+    color:red;
 }
