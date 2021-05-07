@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 .navbar-custom, nav ul li .nav-link{
     background-color: #5587c4;
-    color: red;
+    color:white;
 }
 nav .navbar-brand{
     font-family: 'Courgette', cursive;
@@ -9,7 +9,7 @@ nav .navbar-brand{
 }
 nav .navbar-toggler-icon {
     background-image: url(
-"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255 , 0, 0.8)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255 , 255, 255.8)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 nav ul a{
     font-weight: 700;
