@@ -7,6 +7,7 @@
 }
 nav .navbar-brand{
     font-family: 'Courgette', cursive;
+
     font-size: 40px;
 }
 nav .navbar-toggler-icon {
@@ -14,7 +15,7 @@ nav .navbar-toggler-icon {
 "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255 , 255, 255.8)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 nav ul a{
-    font-weight: 700;
+    font-weight: 100;
     font-size: large;
 }
 .capital{
@@ -79,9 +80,17 @@ img{
 
 
 .main{
-
+    background-color: #6796c2;
+    border-left: 8px solid #5587c4;
+    border-right: 8px solid #5587c4;
+    border-bottom: 8px solid #5587c4;
     padding: 50px;
-
+}
+ 
+.main h5{
+    color: white;
+    font-weight: 100;
+    
 }
 
 .pic-pad{
@@ -93,6 +102,12 @@ img{
     padding-left: 16%;
 }
 
+.video{
+    text-align: center;
+    background-color: #6796c2;
+    border-left: 8px solid #5587c4;
+    border: 8px solid #5587c4;
+}
 
 
 /* ====Footer==== */
@@ -106,16 +121,16 @@ footer{
 }
 .ft-color{
     background-color: #6796c2;
-    color: whitesmoke;
+    color: white;
     padding-top:10px;
-    border: 1px solid whitesmoke;
+    border: 1px solid white;
     letter-spacing: 2px;
 }
  .fab{
     font-size: 25px;
     line-height: 10px;
     text-align: center;
-    color: whitesmoke;
+    color: white;
 }
 li a .fab{
     letter-spacing: 20px;
@@ -126,9 +141,14 @@ footer .fab:hover{
     font-size: 27px;
 }
 .foot-wrapper h5{
-      color: whitesmoke;
+      color: white;
+      font-weight: 100;
 }
 .foot-wrapper h5:hover,
 .foot-wrapper a{
     color:red;
+}
+
+.copyright p{
+    font-weight: 100;
 }
