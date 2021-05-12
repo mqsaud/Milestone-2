@@ -12,7 +12,7 @@ nav .navbar-brand{
 }
 nav .navbar-toggler-icon {
     background-image: url(
-"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255 , 255, 255.8)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255 , 255, 255.8)' stroke-width='2' stroke-linecap='square' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 nav ul a{
     font-weight: 100;
@@ -106,9 +106,8 @@ img{
     text-align: center;
     background-color: #6796c2;
     border-left: 8px solid #5587c4;
-    border: 8px solid #5587c4;
+    border-right: 8px solid #5587c4;
 }
-
 
 /* ====Footer==== */
 footer{
@@ -151,4 +150,12 @@ footer .fab:hover{
 
 .copyright p{
     font-weight: 100;
+}
+
+@media  screen and (max-width:465px){
+    .f-place-bg .famous-places{
+        height:100px ;
+        padding-top: 8px;
+    }
+
 }
