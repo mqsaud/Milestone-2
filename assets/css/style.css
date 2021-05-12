@@ -108,6 +108,32 @@ img{
     border-left: 8px solid #5587c4;
     border-right: 8px solid #5587c4;
 }
+/* ======Discover========= */
+.btn-bundle {
+    text-align: center;
+    word-spacing: 100px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.btn-disc {
+     font-family: 'Courgette', cursive;
+    background-color: #01B1B1;
+    border: 1px solid #000;
+    color: #fff;
+    height: 40px;
+    width: 180px;
+    margin-bottom: 3px;
+}
+
+.btn-disc-icon {
+    margin-right: 5px;
+}
+
+
+/* =====Map========= */
+ #map{
+     height: 400px;
+ }
 
 /* ====Footer==== */
 footer{

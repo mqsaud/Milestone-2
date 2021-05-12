@@ -47,7 +47,34 @@
         <div>
             <img class="hero" src="assets/images/Hero-1.jpg" alt="Hero Image">
         </div>
-       <div id="map"></div>
+        <div class="row btn-bundle">
+            <div class="col-sm-6 col-md-4 col-xl-2">
+                <button type="button" class="btn btn-disc" id="nature"><i class="fas fa-tree btn-disc-icon"></i>Nature
+                    & Gardens</button>
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-2">
+                <button type="button" class="btn btn-disc" id="beaches"><i
+                        class="fas fa-umbrella-beach btn-disc-icon"></i>Beaches</button>
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-2">
+                <button type="button" class="btn btn-disc" id="sites"><i
+                        class="fas fa-monument btn-disc-icon"></i>Historic Sites</button>
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-2">
+                <button type="button" class="btn btn-disc" id="restaurants"><i
+                        class="fas fa-utensils btn-disc-icon"></i>Restaurants</button>
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-2">
+                <button type="button" class="btn btn-disc" id="hotels"><i
+                        class="fas fa-hotel btn-disc-icon"></i>Hotels</button>
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-2">
+                <button type="button" class="btn btn-disc" id="\activities"><i
+                        class="fas fa-hiking btn-disc-icon"></i>Activities</button>
+            </div>
+        </div>
+       
+        <div id="map"></div>
     </section>
     <footer class="container-fluid">
         <div class=" row  foot-wrapper ">
@@ -95,8 +122,8 @@
             </div>
         </div>
     </footer>
-    <script>
-        function initMap() {
+    <!-- <script>
+       function initMap() {
             var map = new google.maps.Map(document.getElementById("map"), {
                 zoom: 3,
                 center: {
@@ -129,7 +156,7 @@
                 imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
             });
         }
-    </script>
+    </script> -->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
@@ -141,8 +168,12 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
     </script>
     <script src="assets/js/sendEmail.js"></script>
-     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLBGqGoD3_ZnhpjN_eHmGDUNI0PUR5zAY&callback=initMap"></script>
+    <script
+        src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLBGqGoD3_ZnhpjN_eHmGDUNI0PUR5zAY&callback=initMap">
+    </script>
 </body>
 
 </html>
