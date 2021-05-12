@@ -47,80 +47,7 @@
         <div>
             <img class="hero" src="assets/images/Hero-1.jpg" alt="Hero Image">
         </div>
-        <div class="f-place-bg">
-            <h2 class="famous-places">Top Tourist Places in County Cork </h2>
-        </div>
-        <div class="row main juatify-content-center  no-gutters">
-            <div class="col-12 col-md-6 col-xl-3 bg-1  ">
-                <div class="row align-items-center no-gutters ml-5">
-                    <div class="col-6 pic-pad ">
-                        <div>
-                            <img src="assets/images/Mezanhead.jpg" alt="Mezan Head">
-                        </div>
-                    </div>
-                    <div class="col-4 h-pad ">
-                        <div>
-                            <h5>Mizen Head</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-xl-3 bg-1 ">
-                <div class="row align-items-center no-gutters ml-5">
-                    <div class="col-6 pic-pad ">
-                        <div>
-                            <img src="assets/images/gougan-barra-1.jpg" alt="Gougane Barra">
-                            <!-- credit -> https://www.kieronoconnor-photography.com/cork/st-finbarrs-oratory-gougane-barra-cork-ireland -->
-                        </div>
-                    </div>
-                    <div class="col-4 h-pad">
-                        <div>
-                            <h5>Gougane Barra</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-xl-3 bg-1 ">
-                <div class="row align-items-center no-gutters ml-5 ">
-                    <div class="col-6 pic-pad ">
-                        <div>
-                            <img src="assets/images/fota.jpg" alt="fota wildlife park ">
-                            <!--credit -> https://declanhowardphotography.com/ -->
-                        </div>
-                    </div>
-                    <div class="col-4 h-pad">
-                        <div>
-                            <h5>Fota Wildlife Park</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-xl-3 bg-1">
-                <div class="row align-items-center no-gutters ml-5 ">
-                    <div class="col-6 pic-pad ">
-                        <div>
-                            <img src="assets/images/blarney-castle.jpg" alt="Blarney Castle">
-                            <!-- Credit -> https://railtoursireland.com/ -->
-                        </div>
-                    </div>
-                    <div class="col-4 h-pad">
-                        <div>
-                            <h5>Blarney Castle</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row justify-content-center no-gutters video ">
-            <div class="col-12 col-md-8 col-lg-8 col-xl-4 ">
-                <video class="container" width="100%" height="100%" controls="controls">
-                    <source src="assets/video/cork-magic.mp4" type="video/mp4">
-                    <!-- Credit -> Cork City Council -->
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-        </div>
-
+       <div id="map"></div>
     </section>
     <footer class="container-fluid">
         <div class=" row  foot-wrapper ">
@@ -168,6 +95,41 @@
             </div>
         </div>
     </footer>
+    <script>
+        function initMap() {
+            var map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 3,
+                center: {
+                    lat: 46.619261,
+                    lng: -33.134766
+                }
+            });
+
+            var labels = "ABCDEFGHIJKLMONPQRSTUVWXYZ";
+
+            var locations = [{
+                lat: 40.785091,
+                lng: -73.968285
+            }, {
+                lat: 41.084045,
+                lng: -73.874256
+            }, {
+                lat: 40.754932,
+                lng: -73.984016
+            }];
+
+            var markers = locations.map(function(location, i) {
+                return new google.maps.Marker({
+                    position: location,
+                    label: labels[i % labels.length]
+                });
+            });
+
+            var markerCluster = new MarkerClusterer(map, markers, {
+                imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
+            });
+        }
+    </script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
@@ -179,6 +141,8 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
     </script>
     <script src="assets/js/sendEmail.js"></script>
+     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLBGqGoD3_ZnhpjN_eHmGDUNI0PUR5zAY&callback=initMap"></script>
 </body>
 
 </html>
