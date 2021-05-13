@@ -205,6 +205,41 @@ footer .fab:hover {
     font-weight: 100;
 }
 
+/* ===map.js=== */
+.info-name{
+    font-family: 'Courgette', cursive;
+    background-color:#6796c2;
+    color: white;
+    font-weight: 100;
+    padding: 10px;
+    border-top: 1px solid black;
+    border-left:1px solid black;
+    border-right: 1px solid black;
+    margin:0;
+}
+
+.cat{
+    background-color:#6796c2;
+    color: white;
+    font-weight: 100;
+    padding: 10px;
+    border-left:1px solid black;
+    border-right: 1px solid black;
+    margin: 0;
+    
+}
+
+.rating{
+    background-color:#6796c2;
+    color: white;
+    font-weight: 100;
+    padding: 10px;
+    margin: 0;
+    border-left:1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
 @media screen and (max-width:465px) {
     .f-place-bg .famous-places {
         height: 100px;
@@ -212,3 +247,4 @@ footer .fab:hover {
     }
 
 }
+
