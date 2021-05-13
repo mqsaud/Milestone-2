@@ -1,7 +1,7 @@
 let map;
 
 // Coordinate values
-
+// Nature and gardens
 let gardenLocations = [{
         latlng: {
             lat: 51.75432,
@@ -98,6 +98,102 @@ let gardenLocations = [{
  },
 ]
 
+// Beaches
+let beachLocations = [
+    { 
+   latlng: {lat:51.56771 , 
+	        lng:-8.99698
+	       },
+    // Owenahincha Beach
+    content:`<h4 class="info-name">Owenahincha Beach</h4>
+    <h5 class="cat">Beach</h5>
+    <h6 class="rating">Rating:4.6 ***** </h6>`
+ },
+ { 
+   latlng: {lat:51.59673 , 
+	       lng: -8.86595
+	       },
+    // Inchydoney Beach
+    content:`<h4 class="info-name">Inchydoney Beach</h4>
+    <h5 class="cat">Beach</h5>
+    <h6 class="rating">Rating:4.7 ***** </h6>`
+ },
+ { 
+   latlng: {lat:51.69575 , 
+	        lng: -8.51299
+	       },
+    // kinsale Beach
+    content:`<h4 class="info-name">Kinsale Beach</h4>
+    <h5 class="cat">Beach</h5>
+    <h6 class="rating">Rating:4.6 ***** </h6>`
+ },
+ { 
+   latlng: {lat:51.85921 , 
+	       lng: -8.00197
+	        },
+    // Garryvoe Beach
+    content:`<h4 class="info-name"Garryvoe Beach></h4>
+    <h5 class="cat">Beach</h5>
+    <h6 class="rating">Rating:4.5 ***** </h6>`
+ },
+ { 
+   latlng: {lat:51.93442 , 
+	       lng: -7.85941
+	       },
+    //Youghal Beach 
+    content:`<h4 class="info-name">Youghal Beach</h4>
+    <h5 class="cat">Beach</h5>
+    <h6 class="rating">Rating:4.6 ***** </h6>`
+ },
+ { 
+   latlng: {lat:51.77521 , 
+	        lng:-8.31119 
+	       },
+    // Fountainstown Beach
+    content:`<h4 class="info-name">Fountainstown Beach</h4>
+    <h5 class="cat">Bach</h5>
+    <h6 class="rating">Rating:4.5 ***** </h6>`
+ },
+ { 
+   latlng: {lat:51.46940 , 
+	        lng:-9.77693 
+	       },
+    // Barley Cove Beach
+    content:`<h4 class="info-name">Barley Cove Beach</h4>
+    <h5 class="cat">Beach</h5>
+    <h6 class="rating">Rating:4.8 ***** </h6>`
+ },
+ { 
+   latlng: {lat:51.90764 , 
+	        lng:-7.89982
+	    },
+    // Pilmore Strand
+    content:`<h4 class="info-name">Pilmore Strand</h4>
+    <h5 class="cat">Beach</h5>
+    <h6 class="rating">Rating:4.8 ***** </h6>`
+ },
+ { 
+   latlng: {lat:51.92541 , 
+	        lng:-7.87266 
+	        },
+    // Redbarn Beach
+    content:`<h4 class="info-name">Redbarn Beach</h4>
+    <h5 class="cat">Beach</h5>
+    <h6 class="rating">Rating:4.6 ***** </h6>`
+ },
+ { 
+   latlng: {lat:51.94063 , 
+	        lng: -7.84383
+	        },
+    // Front strand Beach
+    content:`<h4 class="info-name">Front Strand beach</h4>
+    <h5 class="cat">Beach</h5>
+    <h6 class="rating">Rating:4.7 ***** </h6>`
+ },
+
+]
+
+
 
 function initMap(myLocations) {
     let coordinates = {
@@ -105,10 +201,10 @@ function initMap(myLocations) {
         lng: -9.16518
     };
     if(window.screen.width < 768){
-        let level = 8;
+        var level = 7;
     }
     else if(window.screen.width < 1200 ) 
-         {level = 9;}
+         {level = 8;}
     else{
         level = 10;
     }     
@@ -157,4 +253,9 @@ function initMap(myLocations) {
 
 document.getElementById("garden").addEventListener("click", () => {
     initMap(gardenLocations);
+});
+
+
+document.getElementById("beaches").addEventListener("click", () => {
+    initMap(beachLocations);
 });
