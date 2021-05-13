@@ -1,27 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
 /* === NavBar==== */
-.navbar-custom, nav ul li .nav-link{
+.navbar-custom,
+nav ul li .nav-link {
     background-color: #5587c4;
-    color:white;
+    color: white;
 }
-nav .navbar-brand{
+
+nav .navbar-brand {
     font-family: 'Courgette', cursive;
 
     font-size: 40px;
 }
+
 nav .navbar-toggler-icon {
-    background-image: url(
-"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255 , 255, 255.8)' stroke-width='2' stroke-linecap='square' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255 , 255, 255.8)' stroke-width='2' stroke-linecap='square' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
-nav ul a{
+
+nav ul a {
     font-weight: 100;
     font-size: large;
 }
-.capital{
+
+.capital {
     text-transform: uppercase;
 }
-.ltr-space{
+
+.ltr-space {
     letter-spacing: 2px;
 }
 
@@ -29,97 +34,112 @@ nav ul a{
 .center-block {
     display: table;
     margin: 0 auto;
-  }
+}
 
-  .form-position{
-      max-width: 70%;
-      margin:20px auto;
-  }
-
-  
-  .contact-send{
-      margin-top: 20px;
-  }
- 
-/* --HEADER--END------------------------------------------------------------- */
-
-/* =Hero Imagr= */
-.hero{
-      width: 100%;
-      height: 50vh;
-  }
-  
-  /* index.html */
-  .famous-places{
-      background-color:#6796c2;
-      border:1px solid white;
-      color: white;
-      text-align: center;
-      margin: 0;
-      height: 75px;
-      padding-top: 15px;
-      font-weight: 100;
-      
-  }
-
-  .f-place-bg{
-      background-color: #5587c4;
-      padding: 8px;
-  }
-
-  
-img{
-    max-width: 130%;   
+.form-position {
+    max-width: 70%;
+    margin: 20px auto;
 }
 
 
-.bg-1{
-    
+.contact-send {
+    margin-top: 20px;
+}
+
+/* --HEADER--END------------------------------------------------------------- */
+
+/* =Hero Imagr= */
+.hero {
+    width: 100%;
+    height: 50vh;
+}
+
+/* index.html */
+.famous-places {
+    background-color: #6796c2;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    margin: 0;
+    height: 75px;
+    padding-top: 15px;
+    font-weight: 100;
+
+}
+
+.f-place-bg {
+    background-color: #5587c4;
+    padding: 8px;
+}
+
+
+img {
+    max-width: 130%;
+}
+
+
+.bg-1 {
+
     padding: 50px;
 }
 
 
-.main{
+.main {
     background-color: #6796c2;
     border-left: 8px solid #5587c4;
     border-right: 8px solid #5587c4;
     border-bottom: 8px solid #5587c4;
     padding: 50px;
 }
- 
-.main h5{
+
+.main h5 {
     color: white;
     font-weight: 100;
-    
+
 }
 
-.pic-pad{
+.pic-pad {
     padding: 0 0 0 25px;
 }
 
-.row .h-pad{
+.row .h-pad {
     padding-right: 0;
     padding-left: 16%;
 }
 
-.video{
+.video {
     text-align: center;
     background-color: #6796c2;
     border-left: 8px solid #5587c4;
     border-right: 8px solid #5587c4;
 }
+
 /* ======Discover========= */
+.para-bg{
+    background-color: #6796c2;
+    color:white;
+    text-align: center;
+    height: 50px;
+    padding-top: 15px;
+}
+.button-bg {
+    background-color: #5587c4;
+    padding:4px
+}
+
 .btn-bundle {
+    background-color: #6796c2;
     text-align: center;
     word-spacing: 100px;
-    margin-bottom: 20px;
-    margin-top: 40px;
+    margin:4px ;
+    padding: 30px 10px;
 }
+
 .btn-disc {
-     font-family: 'Courgette', cursive;
-    background-color: #01B1B1;
+    font-family: 'Courgette', cursive;
+    background-color: rgb(248, 224, 8);
     border: 1px solid #000;
-    color: #fff;
+    color: rgba(8, 32, 245, 0.945);
     height: 40px;
     width: 180px;
     margin-bottom: 3px;
@@ -130,57 +150,64 @@ img{
 }
 
 
+
 /* =====Map========= */
- #map{
-     height: 400px;
- }
+#map {
+    height: 400px;
+}
 
 /* ====Footer==== */
-footer{
+footer {
     margin: 0;
-   
+
 }
-.foot-wrapper{
+
+.foot-wrapper {
     padding: 8px;
     background-color: #5587c4;
 }
-.ft-color{
+
+.ft-color {
     background-color: #6796c2;
     color: white;
-    padding-top:10px;
+    padding-top: 10px;
     border: 1px solid white;
     letter-spacing: 2px;
 }
- .fab{
+
+.fab {
     font-size: 25px;
     line-height: 10px;
     text-align: center;
     color: white;
 }
-li a .fab{
+
+li a .fab {
     letter-spacing: 20px;
 }
 
-footer .fab:hover{
-    color:red;
+footer .fab:hover {
+    color: red;
     font-size: 27px;
 }
-.foot-wrapper h5{
-      color: white;
-      font-weight: 100;
-}
-.foot-wrapper h5:hover,
-.foot-wrapper a{
-    color:red;
-}
 
-.copyright p{
+.foot-wrapper h5 {
+    color: white;
     font-weight: 100;
 }
 
-@media  screen and (max-width:465px){
-    .f-place-bg .famous-places{
-        height:100px ;
+.foot-wrapper h5:hover,
+.foot-wrapper a {
+    color: red;
+}
+
+.copyright p {
+    font-weight: 100;
+}
+
+@media screen and (max-width:465px) {
+    .f-place-bg .famous-places {
+        height: 100px;
         padding-top: 8px;
     }
 
