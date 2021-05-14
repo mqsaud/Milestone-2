@@ -577,6 +577,121 @@ let hotelsLocations= [
  },
 ]
 
+// Activities
+
+let activityLocations = [
+   
+ { 
+   latlng: {lat:51.61592 , 
+	        lng:-8.89611 
+	       },
+    // Clonakilty Park Adventure Centre
+    content:`<h4 class="info-name">Clonakilty Park Adventure Centre</h4>
+    <h5 class="cat">Recreation center <span class="fas fa-hiking"></span></h5>
+    <h6 class="web"><a href="https://www.clonakiltyparkhotel.ie/clonakilty-park-adventure-centre.html" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:4.5 ***** </h6>`
+ },
+ 
+{ 
+   latlng: {lat:51.57907 , 
+	        lng:-9.02897 
+	       },
+    // The Lagoon Activity Centre
+    content:`<h4 class="info-name">The Lagoon Activity Centre</h4>
+    <h5 class="cat">Leisure centre<span class="fas fa-hiking"></span></h5>
+    <h6 class="web"><a href="https://lagoonactivitycentre.ie" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:4.8 </h6>`
+ },
+ 
+{ 
+   latlng: {lat:51.89704 , 
+	        lng:-8.75718 
+	       },
+    // Zipit Forest Adventures
+    content:`<h4 class="info-name">Zipit Forest Adventures</h4>
+    <h5 class="cat">Park<span class="fas fa-hiking"></span></h5>
+    <h6 class="web"><a href="http://zipit.ie" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:4.7 ***** </h6>`
+ },
+ 
+{ 
+   latlng: {lat:51.66358 , 
+	        lng:-8.70110 
+	       },
+    // Gecko Adventures
+    content:`<h4 class="info-name">Gecko Adventures</h4>
+    <h5 class="cat">Adventure sports<span class="fas fa-hiking"></span></h5>
+    <h6 class="web"><a href="https://geckoadventures.ie" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:5.0 ***** </h6>`
+ },
+ 
+{ 
+   latlng: {lat:51.76796 , 
+	        lng:-9.10785 
+	       },
+    // Funmanway Adventure Land
+    content:`<h4 class="info-name">Funmanway Adventure Land</h4>
+    <h5 class="cat">Sports complex<span class="fas fa-hiking"></span></h5>
+    <h6 class="web"><a href="https://funmanway.com/" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:4.8 ***** </h6>`
+ },
+ 
+{ 
+   latlng: {lat:52.18927 , 
+	        lng:-8.80312 
+	       },
+    // Ballyhass Mallow
+    content:`<h4 class="info-name">Ballyhass Mallow</h4>
+    <h5 class="cat">Adventure sports center<span class="fas fa-hiking"></span></h5>
+    <h6 class="web"><a href="https://www.ballyhass.ie/" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:4.8 ***** </h6>`
+ },
+ 
+{ 
+   latlng: {lat:52.02706 , 
+	        lng:-8.32651 
+	       },
+    // Adventure Park at Kartworld
+    content:`<h4 class="info-name">Adventure Park at Kartworld</h4>
+    <h5 class="cat">Go-kart track<span class="fas fa-hiking"></span></h5>
+    <h6 class="web"><a href="https://www.adventurepark.ie/" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:4.6 ***** </h6>`
+ },
+ 
+{ 
+   latlng: {lat:51.90587 , 
+	        lng:-8.28635 
+	       },
+    // Fota Island Adventure
+    content:`<h4 class="info-name">Fota Island Adventure</h4>
+    <h5 class="cat">Adventure sports center<span class="fas fa-hiking"></span></h5>
+    <h6 class="web"><a href="http://fotaadventure.com" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:4.6 ***** </h6>`
+ },
+ 
+{ 
+   latlng: {lat:51.66237 , 
+	        lng:-9.61953 
+	       },
+    // Hillsidewalks. Sheepshead Peninsula
+    content:`<h4 class="info-name">Hillsidewalks. Sheepshead Peninsula</h4>
+    <h5 class="cat">Hiking area<span class="fas fa-hiking"></span></h5>
+    <h6 class="web"><a href="http://www.sheepshead.ie/" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:4.7 ***** </h6>`
+ },
+ 
+{ 
+   latlng: {lat:52.24474 , 
+	        lng:-8.19257
+	       },
+    // Ballard Waterfall Forest Recreational Area
+    content:`<h4 class="info-name">Ballard Waterfall Forest Recreational Area</h4>
+    <h5 class="cat">Hiking area<span class="fas fa-hiking"></span></h5>
+    <h6 class="web"><a href="https://www.sportireland.ie/outdoors/walking/trails/ballard-waterfall-trail" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:4.6 ***** </h6>`
+ },
+]
+
 
 function initMap(myLocations) {
     let coordinates = {
@@ -653,4 +768,8 @@ document.getElementById("restaurants").addEventListener("click", () => {
 
 document.getElementById("hotels").addEventListener("click", () => {
     initMap(hotelsLocations);
+});
+
+document.getElementById("activities").addEventListener("click", () => {
+    initMap(activityLocations);
 });
