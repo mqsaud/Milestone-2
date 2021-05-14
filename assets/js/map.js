@@ -709,7 +709,7 @@ function initMap(myLocations) {
     map = new google.maps.Map(document.getElementById("map"), {
         zoom :level,
         center: coordinates,
-        disableDefaultUI: true
+         disableDefaultUI: true,
     });
      console.log(level);
 
