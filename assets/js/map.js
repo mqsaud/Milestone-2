@@ -413,6 +413,169 @@ let restaurantLocations = [
  },
 ]
 
+// Hotels
+let hotelsLocations= [
+    { 
+   latlng: {lat:51.90146 , 
+	        lng:-8.46768 
+	       },
+    // Metropole Hote
+    content:`<h4 class="info-name">Metropole Hote</h4>
+    <h5 class="cat">Hotel</h5>
+    <h6 class="web"><a href="https://www.themetropolehotel.ie/" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:4.3 **** </h6>`
+ },
+ { 
+   latlng: {lat:51.90291 , 
+	        lng:-8.47443 
+	       },
+    // Maldron Hotel Cork
+    content:`<h4 class="info-name">Maldron Hotel Cork</h4>
+    <h5 class="cat">Hotel</h5>
+    <h6 class="web"><a href="https://www.maldronhotelshandoncorkcity.com/" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:4.1 **** </h6>`
+ },
+ { 
+   latlng: {lat:51.89396 , 
+	        lng:-8.5-847
+	       },
+    // The Kingsley Hotel
+    content:`<h4 class="info-name">The Kingsley Hotel</h4>
+    <h5 class="cat">Hotel</h5>
+    <h6 class="web"><a href="https://www.thekingsley.ie/" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:4.5 ***** </h6>`
+ },
+ { 
+   latlng: {lat:51.90440 , 
+	        lng:-8.42348 
+	       },
+    // Clayton Hotel Silver Springs
+    content:`<h4 class="info-name">Clayton Hotel Silver Springs</h4>
+    <h5 class="cat">Hotel</h5>
+    <h6 class="web"><a href="https://www.claytonhotelsilversprings.com/" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:4.0 **** </h6>`
+ },
+ { 
+   latlng: {lat:51.89614 , 
+	        lng:-8.48487 
+	       },
+    // The River Lee Hotel
+    content:`<h4 class="info-name">The River Lee Hotel</h4>
+    <h5 class="cat">hotel</h5>
+    <h6 class="web"><a href="https://www.doylecollection.com/hotels/the-river-lee-hotel" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:4.6 ***** </h6>`
+ },
+ { 
+   latlng: {lat:51.93275 , 
+	        lng:-8.56735 
+	       },
+    // Blarney Castle Hotel
+    content:`<h4 class="info-name">Blarney Castle Hotel</h4>
+    <h5 class="cat">Hotel</h5>
+    <h6 class="web"><a href="https://www.blarneycastlehotel.com/" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:4.4 </h6>`
+ },
+ { 
+   latlng: {lat:52.13873 , 
+	        lng:-8.27485
+	       },
+    // The Square Townhouse
+    content:`<h4 class="info-name">The Square Townhouse</h4>
+    <h5 class="cat">Hotel</h5>
+    <h6 class="web"><a href="http://stayinfermoy.ie/" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:4.8 </h6>`
+ },
+{ 
+   latlng: {lat:51.48496 , 
+	        lng:-9.36257
+	       },
+    // Casey's of Baltimore Hotel
+    content:`<h4 class="info-name">Casey's of Baltimore Hotel</h4>
+    <h5 class="cat">Hotel</h5>
+    <h6 class="web"><a href="https://www.caseysofbaltimore.com/" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:4.6 ***** </h6>`
+ },
+ { 
+   latlng: {lat:51.91594 , 
+	        lng:-8.17862 
+	       },
+    // Midleton Park Hotel
+    content:`<h4 class="info-name">Midleton Park Hotel</h4>
+    <h5 class="cat">Hotel</h5>
+    <h6 class="web"><a href="https://www.midletonpark.com/" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:4.1 **** </h6>`
+ },
+ { 
+   latlng: {lat:51.85078  , 
+	        lng:-8.33185
+	       },
+    // The Bosun
+    content:`<h4 class="info-name">The Bosun</h4>
+    <h5 class="cat">Hotel</h5>
+    <h6 class="web"><a href="https://www.thebosun.ie" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:4.4 **** </h6>`
+ },
+ { 
+   latlng: {lat:51.85332, 
+	        lng:-8.48646
+	       },
+    // Cork International Hotel
+    content:`<h4 class="info-name">Cork International Hotel</h4>
+    <h5 class="cat">Hotel</h5>
+    <h6 class="web"><a href="https://www.corkinternationalairporthotel.com/" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:4.4 **** </h6>`
+ },
+ { 
+   latlng: {lat:51.90578 , 
+	        lng:-8.95862 
+	       },
+    // Castle Hotel
+    content:`<h4 class="info-name">Castle Hotel</h4>
+    <h5 class="cat">Hotel</h5>
+    <h6 class="web"><a href="https://www.castlehotel.ie" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:4.5 ***** </h6>`
+ },
+ { 
+   latlng: {lat:52.18815 , 
+	        lng:-8.65772
+	       },
+    // Springfort Hall
+    content:`<h4 class="info-name">Springfort Hall</h4>
+    <h5 class="cat">Hotel</h5>
+    <h6 class="web"><a href="https://www.springfort-hall.com/" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:4.3 </h6>`
+ },
+ { 
+   latlng: {lat:51.69430 , 
+	        lng:-9.44127
+	       },
+    // Seafort Luxury Hideaway
+    content:`<h4 class="info-name">Seafort Luxury Hideaway</h4>
+    <h5 class="cat">Hotel</h5>
+    <h6 class="web"><a href="https://www.seafort.ie/" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:4.8 *****</h6>`
+ },
+ { 
+   latlng: {lat:51.70763 , 
+	        lng:-8.52666
+	       },
+    // Friars Lodge
+    content:`<h4 class="info-name">Friars Lodge</h4>
+    <h5 class="cat">Hotel</h5>
+    <h6 class="web"><a href="https://friars-lodge.com/" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:4.6 **** </h6>`
+ },
+ { 
+   latlng: {lat:51.62385 , 
+	        lng:-8.88543
+	       },
+    // The Clonakilty Hotel
+    content:`<h4 class="info-name">The Clonakilty Hotel</h4>
+    <h5 class="cat">Hotel</h5>
+    <h6 class="web"><a href="https://www.theclonakilty.com/" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:4.1 </h6>`
+ },
+]
 
 
 function initMap(myLocations) {
@@ -486,4 +649,8 @@ document.getElementById("sites").addEventListener("click", () => {
 
 document.getElementById("restaurants").addEventListener("click", () => {
     initMap(restaurantLocations);
+});
+
+document.getElementById("hotels").addEventListener("click", () => {
+    initMap(hotelsLocations);
 });
