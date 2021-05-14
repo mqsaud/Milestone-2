@@ -192,6 +192,226 @@ let beachLocations = [
  },
 
 ]
+// Historic Locations
+
+let historicLocations = [
+    
+{ 
+   latlng: {lat:51.92950 , 
+	        lng:-8.57102 
+	       },
+    // Blarney Castle
+    content:`<h4 class="info-name">Blarney Castle</h4>
+    <h5 class="cat">Castle</h5>
+    <h6 class="web"><a href="https://www.blarneycastle.ie" target="_blank" alt="Blarney Castle">Website</a></h6>
+    <h6 class="rating">Rating:4.6 ***** </h6>`
+ },
+{ 
+   latlng: {lat:51.69727 , 
+	        lng: -8.49894
+	       },
+    // Charles Fort
+    content:`<h4 class="info-name">Charles Fort</h4>
+    <h5 class="cat">Castle</h5>
+    <h6 class="web"><a href="https://heritageireland.ie/places-to-visit/charles-fort-national-monument" target="_blank alt="Charles Fort">Website</a>/</h6>
+    <h6 class="rating">Rating:4.6 ***** </h6>`
+ },
+{ 
+   latlng: {lat:51.85148 , 
+	        lng:-8.29361 
+	       },
+    // Cobh Cathedral
+    content:`<h4 class="info-name">St. Colman's Cathedral</h4>
+    <h5 class="cat">Church</h5>
+    <h6 class="web"><a href="https://cobhcathedralparish.ie/" target="_blank" alt="Cobh Cathedral">Website</a></h6>
+    <h6 class="rating">Rating:4.7 ***** </h6>`
+ },
+ 
+{ 
+   latlng: {lat:51.89615 , 
+	        lng:-8.47782 
+	       },
+    // Elizabeth Fort
+    content:`<h4 class="info-name">Elizabeth Fort</h4>
+    <h5 class="cat">Historical Landmark</h5>
+    <h6 class="web"><a href="https://www.corkcity.ie/en/elizabeth-fort/" target="_blank" alt="Elizabeth Fort">Website</a></h6>
+    <h6 class="rating">Rating:4.3 **** </h6>`
+ },
+ 
+{ 
+   latlng: {lat:52.13416 , 
+	        lng:-8.63914 
+	       },
+    // Mallow Castle
+    content:`<h4 class="info-name">Mallow Castle</h4>
+    <h5 class="cat">Castle</h5>
+    <h6 class="web"><a href="https://www.mallow.ie/things-to-do" target="_blank" alt="mallow Castle">Mallow Castle</a></h6>
+    <h6 class="rating">Rating:4.5 ***** </h6>`
+ },
+{ 
+   latlng: {lat:51.56469 , 
+	        lng:-9.08736 
+	       },
+    //Drombeg Stone Circle 
+    content:`<h4 class="info-name">Drombeg Stone Circle</h4>
+    <h5 class="cat">Historical Place</h5>
+    <h6 class="web"><a href="https://www.archaeology.ie/monument-of-the-month/archive/drombeg-stone-circle-and-fulacht-fiadh-co-cork" target="_blank" alt="Drombeg Stone Circle">Website</a></h6>
+    <h6 class="rating">Rating:4.6 *****</h6>`
+ },
+ 
+
+{ 
+   latlng: {lat:51.76423 , 
+	        lng:-8.97554 
+	       },
+    // Kinneigh round Towet
+    content:`<h4 class="info-name">Kinneigh Round Tower</h4>
+    <h5 class="cat">Historical Landmark</h5>
+    <h6 class="web"><a href="https://www.discoverireland.ie/cork/kinneigh-round-tower" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:5 ***** </h6>`
+ },
+ 
+
+{ 
+   latlng: {lat:51.63913 , 
+	        lng:-10.04571
+	       },
+    // Allihies Copper Mine Museum
+    content:`<h4 class="info-name">Allihies Copper Mine Museum</h4>
+    <h5 class="cat">Museum</h5>
+    <h6 class="web"><a href="http://www.acmm.ie/" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating: </h6>`
+ },
+ 
+
+{ 
+   latlng: {lat:51.48377 , 
+	        lng:-9.37303 
+	       },
+    // Baltimore Castle
+    content:`<h4 class="info-name">Baltimore Castle</h4>
+    <h5 class="cat">Historic Landmark</h5>
+    <h6 class="web"><a href="https://www.baltimorecastle.ie/" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:4.3 **** </h6>`
+ },
+ 
+
+{ 
+   latlng: {lat:52.16481 , 
+	        lng:-8.90264 
+	       },
+    // Kantruk Castle
+    content:`<h4 class="info-name">Kantruk Castle</h4>
+    <h5 class="cat">Castle</h5>
+    <h6 class="web"><a href="https://www.antaisce.org/properties/kanturk-castle" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:4.5 ***** </h6>`
+ },
+]
+
+// Restaurants
+
+let restaurantLocations = [
+
+{ 
+   latlng: {lat:51.62166 , 
+	        lng:-8.88623
+	       },
+    // The Whale's Tail Restaurant
+    content:`<h4 class="info-name">The Whale's Tail </h4>
+    <h5 class="cat">Restaurant</h5>
+    <h6 class="web"><a href="https://thewhalestail.ie/" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:4.5 ***** </h6>`
+ },
+ { 
+   latlng: {lat:51.48467 , 
+	        lng:-9.36105
+	       },
+    // Glebe Garden
+    content:`<h4 class="info-name">glebe Garden</h4>
+    <h5 class="cat">Restaurant</h5>
+    <h6 class="web"><a href="https://www.glebegardens.com/restaurant" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:4.6 ***** </h6>`
+ },
+ { 
+   latlng: {lat:51.68169 , 
+	        lng:-9.45455 
+	       },
+    // The Brick Oven
+    content:`<h4 class="info-name">The Brick Oven</h4>
+    <h5 class="cat">Restaurant</h5>
+    <h6 class="web"><a href="http://www.thebrickovenbantry.com/" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:4.4 **** </h6>`
+ },
+ { 
+   latlng: {lat:51.94060 , 
+	        lng:-7.84574 
+	       },
+    // Clancy’s Bar & Restaurant
+    content:`<h4 class="info-name">Clancy’s Bar & Restaurant</h4>
+    <h5 class="cat">Restaurant</h5>
+    <h6 class="web"><a href="https://www.clancysyoughal.com/" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating: </h6>`
+ },
+ { 
+   latlng: {lat:51.89745 , 
+	        lng:-8.47152 
+	       },
+    // Bombay Palace
+    content:`<h4 class="info-name">Bombay Palace</h4>
+    <h5 class="cat">Reataurant</h5>
+    <h6 class="web"><a href="http://bombaypalace.ie/" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:4.2 **** </h6>`
+ },
+ { 
+   latlng: {lat:51.94272 , 
+	        lng:-7.99249
+	       },
+    // The Old Thatch Bar & Restaurant
+    content:`<h4 class="info-name">The Old Thatch Bar & Restaurant</h4>
+    <h5 class="cat">Restaurant</h5>
+    <h6 class="web"><a href="http://theoldthatch.ie/" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:4.5 ***** </h6>`
+ },{ 
+   latlng: {lat:51.66812 , 
+	        lng:-8.59599
+	       },
+    // Wild Restaurant
+    content:`<h4 class="info-name">Wild Resturant</h4>
+    <h5 class="cat">Restaurant</h5>
+    <h6 class="web"><a href="https://www.wildrestaurantcork.com/" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:5.0 ***** </h6>`
+ },
+ { 
+   latlng: {lat:51.70686 , 
+	        lng:-8.522298
+	       },
+    // Hamlets Street Food & Gastro Garden
+    content:`<h4 class="info-name">Hamlets Street Food & Gastro Garden</h4>
+    <h5 class="cat">Restaurant</h5>
+    <h6 class="web"><a href="https://www.hamletsofkinsale.com/" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:4.2 **** </h6>`
+ },
+ { 
+   latlng: {lat:51.89892 , 
+	        lng:-8.46412 
+	       },
+    // Dockland
+    content:`<h4 class="info-name">Dockland</h4>
+    <h5 class="cat">restaurant</h5>
+    <h6 class="web"><a href="https://www.dockland.ie/" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:4.5 ***** </h6>`
+ },
+ { 
+   latlng: {lat:51.89764 , 
+	        lng:-8.56870 
+	       },
+    // The Anglers
+    content:`<h4 class="info-name">The Anglers</h4>
+    <h5 class="cat">Restaurant </h5>
+    <h6 class="web"><a href="https://theanglers.ie/" target="_blank" alt="">Website</a></h6>
+    <h6 class="rating">Rating:4.2 </h6>`
+ },
+]
 
 
 
@@ -258,4 +478,12 @@ document.getElementById("garden").addEventListener("click", () => {
 
 document.getElementById("beaches").addEventListener("click", () => {
     initMap(beachLocations);
+});
+
+document.getElementById("sites").addEventListener("click", () => {
+    initMap(historicLocations);
+});
+
+document.getElementById("restaurants").addEventListener("click", () => {
+    initMap(restaurantLocations);
 });
