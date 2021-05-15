@@ -39,7 +39,7 @@ b- I want to know about the more detailed infomationabout toursit destinations m
 ## designe
 #### Color Scheme
 Following colors are used.  
-<img src="assets/images/test/used-color.png">  
+<img src="assets/images/test/color-used.jpg">  
 
 #### Typography  
 Following fonts are used.    
@@ -85,8 +85,56 @@ To view wirefarme please click [here](https://github.com/mqsaud/Milestone-2/blob
     - Adobe Photoshop was used to resize and edit the images for the website.  
 
 ## Test and vaidation
+#### 5. Testing
+Two methods were adopted to test this project.  
+a. Manual Testing,   
+b. Third-Party Test services, 
 
-    
+#### Manual Testing
+In manual testing each page and every button was tested for proper functionality.
+
+Upon loading the landing page, the top Nav-bar was tsted as following,
+|Action|Result|
+|-------------|--------------|
+|Pressed Home button|Home page reloaded|
+|Pressed Discover button|Discover page loaded|
+|Pressed Contact button|Contact page loaded|
+|||  
+
+The above procedure was repeated with the Nav-bar of every page and got same result.
+
+On Home page, by pressing the image below the headind "Top Tourist Places in County Cork" the following results was achived.
+
+|Action|Result|
+|------|------|
+|Pressed Mizen Head image|"https://mizenhead.ie" page opened in a new tab|
+|Pressed Gougane Barra image|"http://www.gouganebarra.com" page opened in a new tab|
+|Pressed Fota Wildlife Park image|"https://www.fotawildlife.ie" page opened in a new tab|
+|Pressed Blarney Castle image|"https://www.blarneycastle.ie" page opened in a new tab 
+|||  
+
+On Home page there is a video player, upon pressing its play button a vides starts to play. Video credit is given in index.html file.
+
+The buttons on the footer of every page was tested as following.
+|Action|Results|
+|------|-------|
+|Pressed Home button|Home page reloaded|
+|Pressed Contact button|Contact page loaded|
+|pressed facebook icon|"https://www.facebook.com" page loaded in a new tab|
+|Pressed Twitter icon|"https://twitter.com" page loaded in a new tab|
+|Pressed Instagram icon|"https://www.instagram.com" page loaded in a new tab|
+|Pressed Youtube icon|"https://www.youtube.com" page loaded in anew tab|
+|||
+
+
+
+
+
+
+
+
+
+
 
 
 
