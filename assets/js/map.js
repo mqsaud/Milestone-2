@@ -711,7 +711,6 @@ function initMap(myLocations) {
         center: coordinates,
          disableDefaultUI: true,
     });
-     console.log(zoomLevel);
 
     let labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
