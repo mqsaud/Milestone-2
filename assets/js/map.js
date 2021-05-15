@@ -695,23 +695,23 @@ let activityLocations = [
 
 function initMap(myLocations) {
     let coordinates = {
-        lat: 51.83894,
-        lng: -9.16518
+        lat: 51.744104,
+        lng: -8.887999
     };
     if(window.screen.width < 768){
-        var level = 7;
+        var zoomLevel = 7;
     }
     else if(window.screen.width < 1200 ) 
-         {level = 8;}
+         {zoomLevel = 8;}
     else{
-        level = 10;
+        zoomLevel = 9;
     }     
     map = new google.maps.Map(document.getElementById("map"), {
-        zoom :level,
+        zoom :zoomLevel,
         center: coordinates,
          disableDefaultUI: true,
     });
-     console.log(level);
+     console.log(zoomLevel);
 
     let labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
