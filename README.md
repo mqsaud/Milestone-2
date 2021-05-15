@@ -22,9 +22,9 @@ Upon landing on page,
 
 ### User Stories
 #### First Time Visitor Goal  
-a -  As a first time visitor, I want to know what tourist information are available.   
+a -  As a first time visitor, I want to know what tourist information is available.   
 b - I want to be able to navigate around the different pages easily.  
-c - I want toable to get information about different tourist destinations.  
+c - I want  able to get information about different tourist destinations.  
 d - I want to find the social media links to find out the reputation and fan following of the website.  
 
 #### Returning Visitor Goal  
@@ -36,7 +36,7 @@ a- As a frequent visitor, I want to know is there any hotel offer by visiting th
 b- I want to know about the more detailed infomationabout toursit destinations marked on map.  
 <hr>  
 
-## designe
+## Designe
 #### Color Scheme
 Following colors are used.  
 <img src="assets/images/test/color-used.jpg">  
@@ -56,21 +56,22 @@ A beautiful video with sweet malodies in integrated in landing page. The credit 
 #### Wirefarme
 The concept of website was frist implemented in wireframe file.  
 Balsamiq Wireframe software was uased to create wireframe file and then the file saved as pdf file.  
-To view wirefarme please click [here](https://github.com/mqsaud/Milestone-2/blob/master/assets/Milestone-2%20project%20wireframe%20%20.pdf)  
+To view wirefarme please click [here](https://github.com/mqsaud/Milestone-2/blob/master/assets/Milestone-2-project-wireframe.pdf)  
 <hr>  
 
 ## Technology used
 
 ##### Languages
-1-HTML5  
-2-CSS3  
-3-JavaScript  
-4-Jquery
+1- HTML5  
+2- CSS3  
+3- JavaScript  
 
 #### Frameworks, Libraries and Programs 
 
-1. [Bootstrap Ver.4.6:](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
+1. [Bootstrap Ver 4.6:](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
     - Bootstrap was used to make the website responsive and stylish.  
+1.  [JQuery Ver 3.3.1 ](https://code.jquery.com/jquery-3.3.1.slim.min.js)
+    - JQuery was used to target DOM elements.      
 1. [Balsamiq Ver 4.2.4:](https://balsamiq.com/)
     - Balsamiq software was used to create the wirefarme images .
 1. [Google Fonts:](https://fonts.google.com/)
@@ -125,6 +126,74 @@ The buttons on the footer of every page was tested as following.
 |Pressed Instagram icon|"https://www.instagram.com" page loaded in a new tab|
 |Pressed Youtube icon|"https://www.youtube.com" page loaded in anew tab|
 |||
+
+On Discover page 6 different categories are provided.<img src="assets/images/test/info-categories.jpg">
+On clicking each category markers are droped on map. <img src="assets/images/test/markers-on-map.jpg">
+When a marker is clicked an info-window appears containing onformation abou that marker. Most of the info-windows are provided with website links and using these links the visitor can get some benifits, like hotel booking, restaurant booking atc.. <img src="assets/images/test/map-info-window.jpg"> 
+Each marker, each info-window and web link is tested.
+
+#### Third-Party-Test-Services 
+All html files are validated with no errors by W3C vaidation service.  
+
+During testing some files has failed validation test.<img src="assets/images/test/validation-error.jpg">  
+After resolving the cause of validation failure, all files passed the validation test.<img src="assets/images/test/validation-no-error.jpg">  
+CSS file validated with no errors by using Jig saw validation service.  
+
+### Testing User Stories from User Experience Section
+##### First-time visitor Goal  
+##### a- As a first time visitor, I want to know what tourist information is available.  
+- When a user lands on the website, a beautiful hero image welcomes the user. The welcome paragraph describes the type of the page and invites to make the user's next holiday's destination.  
+##### b - I want to be able to navigate around the different pages easily. 
+- The top Nav-bar helps the user to navigate around all the website pages easily.  
+##### c - I want to able to get information about different tourist destinations.  
+- The buttons on discover page (shown in image below) helps the user to know about the different tourist destinations types.<img src="assets/images/test/info-categories.jpg">  
+##### d - I want to find the social media links to find out the reputation and fan following of the website. 
+- The social media link icons are available on the footer of each page.  
+- when a user clicks on an icon, the related social media page opens in a new tab. 
+
+#### Returning Visitor Goal  
+##### a - As a returning visitor, I want to get more details about tourist destinations like location on map.  
+- When a user clicks any tourist destination button on the Discover page, markers drop on the map to show the tourist destination locations.  
+##### b - I want to get informations about social media rating and website address for tourist destinations.  
+- When a user clicks on any marker, an info-window appears and show the social media rating. Most of the info-windows also show the website link for that tourist destination.  
+#### Frequent User Goal
+##### a- As a frequent visitor, I want to know is there any hotel offer by visiting the hotel's website marked on the map.  
+- When a user clicks the word "Website" on any hotel marker's info-window, that hotel's website opens on a new tab. By visiting that newly opened tab, the user can get information like the offer, accommodation details, and booking.  
+
+##### b- I want to know about the more detailed infomationabout toursit destinations marked on map. 
+- All the info-windows shows the type of destination and their rating. Most of the info-windows also show the website link. By visiting the website, the user can get more knowledge about the tourist destination.
+
+### Further testing  
+##### ##### Chrome lighthous Dev. tool used to check the performance.
+ <img src="assets/images/test/lighthouse-test.jpg">  
+
+- The form on the Contact page is interactive. When a user clicks on send button after filling all the fields, the user receives an email in reply. 
+
+#####  The Website is tested on following browsers Phone sets.
+Google Chrom, firefox, Edge, Opera and internet-Explorer.  
+Samsung A70, Nokia 7Plus, and Huawei p30 lite.  
+
+##### Known Bugs
+- No Known bug.  
+
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page), locate  the "Settings" Button on the menu.
+3. Click on "Settings" button.
+4. A setting page will appear with an "Option" dropdown menu on left side of the Setting heading.
+5. Click on "Pages" at the bottom of this menu.  .
+6. Under "Source", click the dropdown called "None" and select "Master".
+7. Click on "Save" button.
+8. The page will automatically refresh.
+9. A message with your published site address will appear like,
+" Your site is ready to be published at https://Account-Name.github.io/Repository-Name
+6. Now the website is published at [GitHub](https://mqsaud.github.io/Milestone-2/)
+
+
+
 
 
 
