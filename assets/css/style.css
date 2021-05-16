@@ -285,7 +285,14 @@ footer .fab:hover {
     border-right: 1px solid black;
     margin: 0;
   }
+  @media screen and (max-width:790px) {
     
+   .para-bg {
+      height: 80px;
+      margin: 0;
+  }
+}
+  
 
 
 @media screen and (max-width:465px) {
@@ -293,6 +300,22 @@ footer .fab:hover {
         height: 100px;
         padding-top: 8px;
     }
+   .para-bg {
+      height: 100px;
+      margin: 0;
+  }
+}
+
+@media screen and (max-width:350px) {
+    .f-place-bg .famous-places {
+        height: 100px;
+        padding-top: 8px;
+    }
+
+  nav .navbar-brand{
+      font-size: 22px;
+  }  
+  
 
 }
 
