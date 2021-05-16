@@ -174,7 +174,7 @@ Google Chrom, firefox, Edge, Opera and internet-Explorer.
 Samsung A70, Nokia 7Plus, and Huawei p30 lite.  
 
 ##### Known Bugs
-- No Known bug.  
+- Some time on 4K monitor, if the browser window is not fully opned, then a white space below the footer bar can be seen.  
 
 ### GitHub Pages
 
